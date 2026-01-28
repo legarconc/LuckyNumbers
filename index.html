@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Belgian Lottery Analyzer</title>
+
+    <!-- PWA Meta Tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#d4af37">
+    <meta name="description" content="Analyze Belgian lottery statistics and generate number suggestions">
+
+    <!-- iOS PWA Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="LuckyNumbers">
+    <link rel="apple-touch-icon" href="icons/icon-192.svg">
+
+    <!-- Prevent phone number detection -->
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Belgian Lottery Analyzer</h1>
+            <div class="header-controls">
+                <div class="game-toggle">
+                    <button class="game-btn active" data-game="lotto">Lotto</button>
+                    <button class="game-btn" data-game="euromillions">EuroMillions</button>
+                </div>
+                <button class="refresh-btn" id="refreshBtn">
+                    <span class="refresh-icon">&#8635;</span> Refresh
+                </button>
+            </div>
+        </header>
+
+        <!-- Game Info -->
+        <div class="game-info" id="gameInfo">
+            <span class="game-badge">Lotto</span>
+            <span>Pick 6 numbers from 1-45</span>
+            <span class="draw-days">Draws: Wednesday & Saturday</span>
+        </div>
+
+        <!-- Strategy Selection -->
+        <section class="strategy-section">
+            <h2>Select Your Strategy</h2>
+            <div class="strategy-grid">
+                <button class="strategy-btn active" data-strategy="cold">
+                    <span class="strategy-icon">&#129398;</span>
+                    <span class="strategy-name">Cold</span>
+                    <span class="strategy-desc">Overdue numbers</span>
+                </button>
+                <button class="strategy-btn" data-strategy="hot">
+                    <span class="strategy-icon">&#128293;</span>
+                    <span class="strategy-name">Hot</span>
+                    <span class="strategy-desc">Most frequent</span>
+                </button>
+                <button class="strategy-btn" data-strategy="balanced">
+                    <span class="strategy-icon">&#9878;</span>
+                    <span class="strategy-name">Balanced</span>
+                    <span class="strategy-desc">Mix of both</span>
+                </button>
+                <button class="strategy-btn" data-strategy="due">
+                    <span class="strategy-icon">&#127922;</span>
+                    <span class="strategy-name">Due</span>
+                    <span class="strategy-desc">Behind expected</span>
+                </button>
+                <button class="strategy-btn" data-strategy="smart">
+                    <span class="strategy-icon">&#129504;</span>
+                    <span class="strategy-name">Smart</span>
+                    <span class="strategy-desc">Avoid sharing</span>
+                </button>
+                <button class="strategy-btn" data-strategy="random">
+                    <span class="strategy-icon">&#127808;</span>
+                    <span class="strategy-name">Random</span>
+                    <span class="strategy-desc">Pure chance</span>
+                </button>
+            </div>
+            <div class="strategy-explanation" id="strategyExplanation">
+                <div class="explanation-header">
+                    <span class="explanation-icon">&#129504;</span>
+                    <span class="explanation-title">Smart Pick</span>
+                    <span class="explanation-badge useful">May increase payout</span>
+                </div>
+                <p class="explanation-text">Selects numbers that fewer people typically choose (above 31, avoids "lucky" numbers). Won't help you win more often, but you're less likely to share the jackpot if you do win.</p>
+            </div>
+        </section>
+
+        <!-- Suggested Numbers -->
+        <section class="results-section">
+            <h2>Your Suggested Numbers</h2>
+            <div class="loading-state" id="loadingState">
+                <div class="spinner"></div>
+                <span>Loading lottery data...</span>
+            </div>
+            <div class="error-state hidden" id="errorState">
+                <span class="error-icon">&#9888;</span>
+                <span class="error-message" id="errorMessage">Couldn't retrieve the latest data. Please try again.</span>
+                <button class="retry-btn" id="retryBtn">Retry</button>
+            </div>
+            <div class="results-content hidden" id="resultsContent">
+                <div class="main-numbers">
+                    <h3 id="mainNumbersLabel">Main Numbers</h3>
+                    <div class="suggested-numbers" id="suggestedNumbers"></div>
+                </div>
+                <div class="star-numbers hidden" id="starNumbersSection">
+                    <h3>Star Numbers</h3>
+                    <div class="suggested-numbers" id="suggestedStars"></div>
+                </div>
+                <button class="copy-btn" id="copyBtn">
+                    <span>&#128203;</span> Copy Numbers
+                </button>
+                <div class="copy-feedback hidden" id="copyFeedback">Copied!</div>
+
+                <div class="reasons-panel">
+                    <h3>Why These Numbers?</h3>
+                    <ul class="reasons-list" id="reasonsList"></ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Number Grid -->
+        <section class="grid-section">
+            <h2>Number Grid</h2>
+            <div class="grid-legend">
+                <span class="legend-item"><span class="legend-color hot"></span> Hot (recent)</span>
+                <span class="legend-item"><span class="legend-color warm"></span> Warm</span>
+                <span class="legend-item"><span class="legend-color neutral"></span> Neutral</span>
+                <span class="legend-item"><span class="legend-color cool"></span> Cool</span>
+                <span class="legend-item"><span class="legend-color cold"></span> Cold (overdue)</span>
+            </div>
+            <div class="number-grid" id="numberGrid"></div>
+            <div class="star-grid-section hidden" id="starGridSection">
+                <h3>Star Numbers</h3>
+                <div class="number-grid star-grid" id="starGrid"></div>
+            </div>
+        </section>
+
+        <!-- Number Detail Modal -->
+        <div class="modal hidden" id="numberModal">
+            <div class="modal-content">
+                <button class="modal-close" id="modalClose">&times;</button>
+                <h3>Number <span id="modalNumber"></span></h3>
+                <div class="modal-stats">
+                    <div class="modal-stat">
+                        <span class="stat-label">Times Drawn</span>
+                        <span class="stat-value" id="modalTimesDrawn"></span>
+                    </div>
+                    <div class="modal-stat">
+                        <span class="stat-label">Frequency</span>
+                        <span class="stat-value" id="modalFrequency"></span>
+                    </div>
+                    <div class="modal-stat">
+                        <span class="stat-label">Last Drawn</span>
+                        <span class="stat-value" id="modalLastDrawn"></span>
+                    </div>
+                    <div class="modal-stat">
+                        <span class="stat-label">Draws Since</span>
+                        <span class="stat-value" id="modalDrawsSince"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Statistics -->
+        <section class="stats-section">
+            <h2>Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-icon">&#128202;</span>
+                    <div class="stat-info">
+                        <span class="stat-label">Total Draws</span>
+                        <span class="stat-value" id="totalDraws">-</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">&#128293;</span>
+                    <div class="stat-info">
+                        <span class="stat-label">Most Drawn</span>
+                        <span class="stat-value numbers" id="mostDrawn">-</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">&#129398;</span>
+                    <div class="stat-info">
+                        <span class="stat-label">Least Drawn</span>
+                        <span class="stat-value numbers" id="leastDrawn">-</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">&#128197;</span>
+                    <div class="stat-info">
+                        <span class="stat-label">Data Updated</span>
+                        <span class="stat-value" id="lastUpdated">-</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Odds & Expected Value -->
+        <section class="odds-section">
+            <h2>Odds &amp; Expected Value</h2>
+            <div class="odds-grid">
+                <div class="odds-card">
+                    <span class="odds-label">Jackpot Odds</span>
+                    <span class="odds-value" id="jackpotOdds">-</span>
+                    <span class="odds-sub" id="jackpotOddsPercent">-</span>
+                </div>
+                <div class="odds-card">
+                    <span class="odds-label">Total Combinations</span>
+                    <span class="odds-value" id="totalCombinations">-</span>
+                    <span class="odds-sub">Possible tickets</span>
+                </div>
+            </div>
+            <div class="ev-panel">
+                <div class="ev-row">
+                    <label for="jackpotInput">Jackpot (EUR)</label>
+                    <input type="number" id="jackpotInput" min="0" step="1000000" placeholder="e.g. 50000000">
+                    <button class="ev-btn" id="evCalcBtn">Calculate</button>
+                </div>
+                <div class="ev-result">
+                    <span class="ev-label">Jackpot-only EV per ticket</span>
+                    <span class="ev-value" id="evValue">-</span>
+                    <span class="ev-note">Excludes lower prize tiers and sharing.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Multi-Board Generator -->
+        <section class="multiboard-section">
+            <h2>Multi-Board Generator</h2>
+            <p class="section-subtitle">Generate multiple unique boards to maximize coverage</p>
+
+            <div class="multiboard-controls">
+                <div class="control-group">
+                    <label>Number of Boards</label>
+                    <div class="board-count-selector">
+                        <button class="count-btn" data-count="2">2</button>
+                        <button class="count-btn" data-count="3">3</button>
+                        <button class="count-btn active" data-count="5">5</button>
+                        <button class="count-btn" data-count="10">10</button>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>Generation Mode</label>
+                    <div class="mode-selector">
+                        <button class="mode-btn active" data-mode="smart">
+                            <span class="mode-icon">&#129504;</span>
+                            <span class="mode-name">Smart</span>
+                            <span class="mode-desc">Avoid sharing jackpot</span>
+                        </button>
+                        <button class="mode-btn" data-mode="coverage">
+                            <span class="mode-icon">&#127919;</span>
+                            <span class="mode-name">Coverage</span>
+                            <span class="mode-desc">Max number spread</span>
+                        </button>
+                        <button class="mode-btn" data-mode="wheel">
+                            <span class="mode-icon">&#9881;</span>
+                            <span class="mode-name">Wheel</span>
+                            <span class="mode-desc">Guaranteed matches</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wheel-config hidden" id="wheelConfig">
+                <label>Select your lucky numbers (pick 8-12):</label>
+                <div class="wheel-number-grid" id="wheelNumberGrid"></div>
+                <div class="wheel-info">
+                    <span id="wheelSelectedCount">0</span> numbers selected
+                    <span class="wheel-combinations" id="wheelCombinations"></span>
+                </div>
+            </div>
+
+            <button class="generate-btn" id="generateMultiBtn">
+                <span>&#9889;</span> Generate Boards
+            </button>
+
+            <div class="multiboard-results hidden" id="multiboardResults">
+                <div class="results-header">
+                    <h3>Your <span id="boardCountLabel">5</span> Boards</h3>
+                    <div class="results-actions">
+                        <button class="action-btn" id="copyAllBtn">
+                            <span>&#128203;</span> Copy All
+                        </button>
+                        <button class="action-btn" id="regenerateBtn">
+                            <span>&#8635;</span> Regenerate
+                        </button>
+                    </div>
+                </div>
+                <div class="boards-grid" id="boardsGrid"></div>
+                <div class="multiboard-stats" id="multiboardStats"></div>
+            </div>
+        </section>
+
+        <!-- Draw History -->
+        <section class="history-section">
+            <div class="history-header">
+                <h2>Recent Draw Results</h2>
+                <span class="history-info">Last 20 draws (~2 months)</span>
+            </div>
+            <div class="history-list" id="historyList">
+                <!-- Draw results will be inserted here -->
+            </div>
+        </section>
+
+        <!-- Disclaimer -->
+        <footer class="disclaimer">
+            <span class="warning-icon">&#9888;</span>
+            <p><strong>Disclaimer:</strong> Lottery draws are completely random. This tool is for entertainment only and does not increase your chances of winning. Play responsibly.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        // Register Service Worker for PWA
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('SW registered'))
+                    .catch(err => console.log('SW registration failed:', err));
+            });
+        }
+    </script>
+</body>
+</html>

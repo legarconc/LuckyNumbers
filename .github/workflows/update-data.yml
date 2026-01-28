@@ -1,0 +1,36 @@
+name: Update Lottery Data
+
+on:
+  schedule:
+    # Run daily at 6 AM UTC (after morning lottery data updates)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch lottery data
+        run: node scripts/fetch-data.js
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update lottery data'
+          file_pattern: 'data/*.json'
+          commit_author: 'GitHub Actions <actions@github.com>'

@@ -1,0 +1,633 @@
+{
+  "drawStatistics": [
+    {
+      "drawnResults": [
+        {
+          "gameName": "Lotto",
+          "period": "Official statistics (Loterie Nationale)",
+          "statistics": [
+            {
+              "result": "1",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 686,
+              "notDrawnSince": 1,
+              "lastWinningDrawId": "4879",
+              "lastWinningDrawDate": 1766793600000
+            },
+            {
+              "result": "2",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 681,
+              "notDrawnSince": 8,
+              "lastWinningDrawId": "4872",
+              "lastWinningDrawDate": 1764720000000
+            },
+            {
+              "result": "3",
+              "frequency": 0.17,
+              "numberOfTimesDrawn": 700,
+              "notDrawnSince": 11,
+              "lastWinningDrawId": "4869",
+              "lastWinningDrawDate": 1763769600000
+            },
+            {
+              "result": "4",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 686,
+              "notDrawnSince": 8,
+              "lastWinningDrawId": "4872",
+              "lastWinningDrawDate": 1764720000000
+            },
+            {
+              "result": "5",
+              "frequency": 0.17,
+              "numberOfTimesDrawn": 692,
+              "notDrawnSince": 2,
+              "lastWinningDrawId": "4878",
+              "lastWinningDrawDate": 1766534400000
+            },
+            {
+              "result": "6",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 653,
+              "notDrawnSince": 6,
+              "lastWinningDrawId": "4874",
+              "lastWinningDrawDate": 1765324800000
+            },
+            {
+              "result": "7",
+              "frequency": 0.18,
+              "numberOfTimesDrawn": 734,
+              "notDrawnSince": 6,
+              "lastWinningDrawId": "4874",
+              "lastWinningDrawDate": 1765324800000
+            },
+            {
+              "result": "8",
+              "frequency": 0.15,
+              "numberOfTimesDrawn": 647,
+              "notDrawnSince": 0,
+              "lastWinningDrawId": "4880",
+              "lastWinningDrawDate": 1767139200000
+            },
+            {
+              "result": "9",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 686,
+              "notDrawnSince": 0,
+              "lastWinningDrawId": "4880",
+              "lastWinningDrawDate": 1767139200000
+            },
+            {
+              "result": "10",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 678,
+              "notDrawnSince": 3,
+              "lastWinningDrawId": "4877",
+              "lastWinningDrawDate": 1766188800000
+            },
+            {
+              "result": "11",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 661,
+              "notDrawnSince": 3,
+              "lastWinningDrawId": "4877",
+              "lastWinningDrawDate": 1766188800000
+            },
+            {
+              "result": "12",
+              "frequency": 0.18,
+              "numberOfTimesDrawn": 733,
+              "notDrawnSince": 2,
+              "lastWinningDrawId": "4878",
+              "lastWinningDrawDate": 1766534400000
+            },
+            {
+              "result": "13",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 682,
+              "notDrawnSince": 0,
+              "lastWinningDrawId": "4880",
+              "lastWinningDrawDate": 1767139200000
+            },
+            {
+              "result": "14",
+              "frequency": 0.17,
+              "numberOfTimesDrawn": 702,
+              "notDrawnSince": 2,
+              "lastWinningDrawId": "4878",
+              "lastWinningDrawDate": 1766534400000
+            },
+            {
+              "result": "15",
+              "frequency": 0.15,
+              "numberOfTimesDrawn": 628,
+              "notDrawnSince": 2,
+              "lastWinningDrawId": "4878",
+              "lastWinningDrawDate": 1766534400000
+            },
+            {
+              "result": "16",
+              "frequency": 0.18,
+              "numberOfTimesDrawn": 744,
+              "notDrawnSince": 0,
+              "lastWinningDrawId": "4880",
+              "lastWinningDrawDate": 1767139200000
+            },
+            {
+              "result": "17",
+              "frequency": 0.17,
+              "numberOfTimesDrawn": 692,
+              "notDrawnSince": 6,
+              "lastWinningDrawId": "4874",
+              "lastWinningDrawDate": 1765324800000
+            },
+            {
+              "result": "18",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 690,
+              "notDrawnSince": 15,
+              "lastWinningDrawId": "4865",
+              "lastWinningDrawDate": 1762560000000
+            },
+            {
+              "result": "19",
+              "frequency": 0.17,
+              "numberOfTimesDrawn": 698,
+              "notDrawnSince": 11,
+              "lastWinningDrawId": "4869",
+              "lastWinningDrawDate": 1763769600000
+            },
+            {
+              "result": "20",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 677,
+              "notDrawnSince": 0,
+              "lastWinningDrawId": "4880",
+              "lastWinningDrawDate": 1767139200000
+            },
+            {
+              "result": "21",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 670,
+              "notDrawnSince": 0,
+              "lastWinningDrawId": "4880",
+              "lastWinningDrawDate": 1767139200000
+            },
+            {
+              "result": "22",
+              "frequency": 0.17,
+              "numberOfTimesDrawn": 710,
+              "notDrawnSince": 6,
+              "lastWinningDrawId": "4874",
+              "lastWinningDrawDate": 1765324800000
+            },
+            {
+              "result": "23",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 665,
+              "notDrawnSince": 8,
+              "lastWinningDrawId": "4872",
+              "lastWinningDrawDate": 1764720000000
+            },
+            {
+              "result": "24",
+              "frequency": 0.17,
+              "numberOfTimesDrawn": 729,
+              "notDrawnSince": 18,
+              "lastWinningDrawId": "4862",
+              "lastWinningDrawDate": 1761696000000
+            },
+            {
+              "result": "25",
+              "frequency": 0.17,
+              "numberOfTimesDrawn": 711,
+              "notDrawnSince": 1,
+              "lastWinningDrawId": "4879",
+              "lastWinningDrawDate": 1766793600000
+            },
+            {
+              "result": "26",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 658,
+              "notDrawnSince": 5,
+              "lastWinningDrawId": "4875",
+              "lastWinningDrawDate": 1765584000000
+            },
+            {
+              "result": "27",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 688,
+              "notDrawnSince": 4,
+              "lastWinningDrawId": "4876",
+              "lastWinningDrawDate": 1765929600000
+            },
+            {
+              "result": "28",
+              "frequency": 0.17,
+              "numberOfTimesDrawn": 709,
+              "notDrawnSince": 4,
+              "lastWinningDrawId": "4876",
+              "lastWinningDrawDate": 1765929600000
+            },
+            {
+              "result": "29",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 679,
+              "notDrawnSince": 0,
+              "lastWinningDrawId": "4880",
+              "lastWinningDrawDate": 1767139200000
+            },
+            {
+              "result": "30",
+              "frequency": 0.15,
+              "numberOfTimesDrawn": 631,
+              "notDrawnSince": 1,
+              "lastWinningDrawId": "4879",
+              "lastWinningDrawDate": 1766793600000
+            },
+            {
+              "result": "31",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 656,
+              "notDrawnSince": 5,
+              "lastWinningDrawId": "4875",
+              "lastWinningDrawDate": 1765584000000
+            },
+            {
+              "result": "32",
+              "frequency": 0.15,
+              "numberOfTimesDrawn": 643,
+              "notDrawnSince": 9,
+              "lastWinningDrawId": "4871",
+              "lastWinningDrawDate": 1764374400000
+            },
+            {
+              "result": "33",
+              "frequency": 0.17,
+              "numberOfTimesDrawn": 693,
+              "notDrawnSince": 1,
+              "lastWinningDrawId": "4879",
+              "lastWinningDrawDate": 1766793600000
+            },
+            {
+              "result": "34",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 660,
+              "notDrawnSince": 27,
+              "lastWinningDrawId": "4853",
+              "lastWinningDrawDate": 1758931200000
+            },
+            {
+              "result": "35",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 671,
+              "notDrawnSince": 7,
+              "lastWinningDrawId": "4873",
+              "lastWinningDrawDate": 1764979200000
+            },
+            {
+              "result": "36",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 677,
+              "notDrawnSince": 14,
+              "lastWinningDrawId": "4866",
+              "lastWinningDrawDate": 1762905600000
+            },
+            {
+              "result": "37",
+              "frequency": 0.15,
+              "numberOfTimesDrawn": 635,
+              "notDrawnSince": 3,
+              "lastWinningDrawId": "4877",
+              "lastWinningDrawDate": 1766188800000
+            },
+            {
+              "result": "38",
+              "frequency": 0.17,
+              "numberOfTimesDrawn": 723,
+              "notDrawnSince": 1,
+              "lastWinningDrawId": "4879",
+              "lastWinningDrawDate": 1766793600000
+            },
+            {
+              "result": "39",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 649,
+              "notDrawnSince": 8,
+              "lastWinningDrawId": "4872",
+              "lastWinningDrawDate": 1764720000000
+            },
+            {
+              "result": "40",
+              "frequency": 0.16,
+              "numberOfTimesDrawn": 663,
+              "notDrawnSince": 12,
+              "lastWinningDrawId": "4868",
+              "lastWinningDrawDate": 1763510400000
+            },
+            {
+              "result": "41",
+              "frequency": 0.15,
+              "numberOfTimesDrawn": 642,
+              "notDrawnSince": 1,
+              "lastWinningDrawId": "4879",
+              "lastWinningDrawDate": 1766793600000
+            },
+            {
+              "result": "42",
+              "frequency": 0.15,
+              "numberOfTimesDrawn": 648,
+              "notDrawnSince": 3,
+              "lastWinningDrawId": "4877",
+              "lastWinningDrawDate": 1766188800000
+            },
+            {
+              "result": "43",
+              "frequency": 0.06,
+              "numberOfTimesDrawn": 251,
+              "notDrawnSince": 4,
+              "lastWinningDrawId": "4876",
+              "lastWinningDrawDate": 1765929600000
+            },
+            {
+              "result": "44",
+              "frequency": 0.06,
+              "numberOfTimesDrawn": 240,
+              "notDrawnSince": 2,
+              "lastWinningDrawId": "4878",
+              "lastWinningDrawDate": 1766534400000
+            },
+            {
+              "result": "45",
+              "frequency": 0.05,
+              "numberOfTimesDrawn": 230,
+              "notDrawnSince": 7,
+              "lastWinningDrawId": "4873",
+              "lastWinningDrawDate": 1764979200000
+            }
+          ],
+          "mostDrawnResults": [
+            "7",
+            "12",
+            "16",
+            "3",
+            "5"
+          ],
+          "leastDrawnResults": [
+            "45",
+            "44",
+            "43",
+            "42",
+            "41"
+          ],
+          "drawCount": 4880,
+          "selectionType": "main"
+        }
+      ]
+    }
+  ],
+  "drawHistory": [
+    [
+      "2025-12-31",
+      [
+        8,
+        9,
+        13,
+        20,
+        21,
+        29
+      ],
+      16
+    ],
+    [
+      "2025-12-27",
+      [
+        1,
+        25,
+        29,
+        33,
+        38,
+        41
+      ],
+      30
+    ],
+    [
+      "2025-12-24",
+      [
+        1,
+        5,
+        9,
+        12,
+        15,
+        44
+      ],
+      14
+    ],
+    [
+      "2025-12-20",
+      [
+        10,
+        11,
+        14,
+        21,
+        37,
+        42
+      ],
+      33
+    ],
+    [
+      "2025-12-17",
+      [
+        13,
+        16,
+        20,
+        27,
+        41,
+        43
+      ],
+      28
+    ],
+    [
+      "2025-12-13",
+      [
+        10,
+        26,
+        29,
+        31,
+        42,
+        44
+      ],
+      14
+    ],
+    [
+      "2025-12-10",
+      [
+        6,
+        7,
+        17,
+        22,
+        31,
+        43
+      ],
+      12
+    ],
+    [
+      "2025-12-06",
+      [
+        7,
+        12,
+        13,
+        35,
+        41,
+        45
+      ],
+      20
+    ],
+    [
+      "2025-12-03",
+      [
+        2,
+        4,
+        15,
+        23,
+        29,
+        39
+      ],
+      35
+    ],
+    [
+      "2025-11-29",
+      [
+        9,
+        14,
+        31,
+        32,
+        38,
+        39
+      ],
+      1
+    ],
+    [
+      "2025-11-26",
+      [
+        9,
+        21,
+        23,
+        30,
+        37,
+        39
+      ],
+      22
+    ],
+    [
+      "2025-11-22",
+      [
+        3,
+        15,
+        19,
+        22,
+        31,
+        33
+      ],
+      16
+    ],
+    [
+      "2025-11-19",
+      [
+        3,
+        25,
+        29,
+        30,
+        35,
+        40
+      ],
+      23
+    ],
+    [
+      "2025-11-15",
+      [
+        5,
+        17,
+        19,
+        28,
+        29,
+        39
+      ],
+      21
+    ],
+    [
+      "2025-11-12",
+      [
+        10,
+        16,
+        29,
+        36,
+        37,
+        43
+      ],
+      32
+    ],
+    [
+      "2025-11-08",
+      [
+        14,
+        17,
+        18,
+        32,
+        36,
+        39
+      ],
+      7
+    ],
+    [
+      "2025-11-05",
+      [
+        15,
+        16,
+        21,
+        27,
+        36,
+        40
+      ],
+      33
+    ],
+    [
+      "2025-11-01",
+      [
+        2,
+        12,
+        21,
+        27,
+        35,
+        45
+      ],
+      28
+    ],
+    [
+      "2025-10-29",
+      [
+        14,
+        18,
+        24,
+        26,
+        35,
+        42
+      ],
+      6
+    ],
+    [
+      "2025-10-25",
+      [
+        3,
+        11,
+        21,
+        25,
+        31,
+        39
+      ],
+      41
+    ]
+  ],
+  "lastUpdated": "2026-01-28T07:43:01.403Z"
+}
