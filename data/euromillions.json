@@ -8,17 +8,17 @@
           "statistics": [
             {
               "result": "1",
-              "frequency": 0.09,
-              "numberOfTimesDrawn": 181,
-              "notDrawnSince": 30,
-              "lastWinningDrawId": "1877",
-              "lastWinningDrawDate": 1757980800000
+              "frequency": 0.1,
+              "numberOfTimesDrawn": 184,
+              "notDrawnSince": 3,
+              "lastWinningDrawId": "1921",
+              "lastWinningDrawDate": 1771286400000
             },
             {
               "result": "2",
               "frequency": 0.09,
               "numberOfTimesDrawn": 178,
-              "notDrawnSince": 6,
+              "notDrawnSince": 23,
               "lastWinningDrawId": "1901",
               "lastWinningDrawDate": 1765238400000
             },
@@ -26,103 +26,103 @@
               "result": "3",
               "frequency": 0.1,
               "numberOfTimesDrawn": 187,
-              "notDrawnSince": 26,
+              "notDrawnSince": 43,
               "lastWinningDrawId": "1881",
               "lastWinningDrawDate": 1759190400000
             },
             {
               "result": "4",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 192,
-              "notDrawnSince": 8,
-              "lastWinningDrawId": "1899",
-              "lastWinningDrawDate": 1764633600000
+              "numberOfTimesDrawn": 195,
+              "notDrawnSince": 3,
+              "lastWinningDrawId": "1921",
+              "lastWinningDrawDate": 1771286400000
             },
             {
               "result": "5",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 192,
-              "notDrawnSince": 9,
-              "lastWinningDrawId": "1898",
-              "lastWinningDrawDate": 1764288000000
+              "numberOfTimesDrawn": 195,
+              "notDrawnSince": 10,
+              "lastWinningDrawId": "1914",
+              "lastWinningDrawDate": 1769126400000
             },
             {
               "result": "6",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 185,
-              "notDrawnSince": 10,
-              "lastWinningDrawId": "1897",
-              "lastWinningDrawDate": 1764028800000
+              "numberOfTimesDrawn": 187,
+              "notDrawnSince": 3,
+              "lastWinningDrawId": "1921",
+              "lastWinningDrawDate": 1771286400000
             },
             {
               "result": "7",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 196,
-              "notDrawnSince": 5,
-              "lastWinningDrawId": "1902",
-              "lastWinningDrawDate": 1765497600000
+              "numberOfTimesDrawn": 197,
+              "notDrawnSince": 14,
+              "lastWinningDrawId": "1910",
+              "lastWinningDrawDate": 1767916800000
             },
             {
               "result": "8",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 182,
-              "notDrawnSince": 2,
-              "lastWinningDrawId": "1905",
-              "lastWinningDrawDate": 1766448000000
+              "numberOfTimesDrawn": 183,
+              "notDrawnSince": 16,
+              "lastWinningDrawId": "1908",
+              "lastWinningDrawDate": 1767312000000
             },
             {
               "result": "9",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 182,
-              "notDrawnSince": 7,
-              "lastWinningDrawId": "1900",
-              "lastWinningDrawDate": 1764892800000
+              "numberOfTimesDrawn": 183,
+              "notDrawnSince": 4,
+              "lastWinningDrawId": "1920",
+              "lastWinningDrawDate": 1770940800000
             },
             {
               "result": "10",
               "frequency": 0.11,
-              "numberOfTimesDrawn": 203,
-              "notDrawnSince": 29,
-              "lastWinningDrawId": "1878",
-              "lastWinningDrawDate": 1758240000000
+              "numberOfTimesDrawn": 208,
+              "notDrawnSince": 1,
+              "lastWinningDrawId": "1923",
+              "lastWinningDrawDate": 1771891200000
             },
             {
               "result": "11",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 189,
-              "notDrawnSince": 0,
-              "lastWinningDrawId": "1907",
-              "lastWinningDrawDate": 1767052800000
+              "numberOfTimesDrawn": 190,
+              "notDrawnSince": 11,
+              "lastWinningDrawId": "1913",
+              "lastWinningDrawDate": 1768867200000
             },
             {
               "result": "12",
               "frequency": 0.1,
               "numberOfTimesDrawn": 191,
-              "notDrawnSince": 1,
+              "notDrawnSince": 18,
               "lastWinningDrawId": "1906",
               "lastWinningDrawDate": 1766707200000
             },
             {
               "result": "13",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 195,
-              "notDrawnSince": 6,
-              "lastWinningDrawId": "1901",
-              "lastWinningDrawDate": 1765238400000
+              "numberOfTimesDrawn": 199,
+              "notDrawnSince": 2,
+              "lastWinningDrawId": "1922",
+              "lastWinningDrawDate": 1771545600000
             },
             {
               "result": "14",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 194,
-              "notDrawnSince": 4,
-              "lastWinningDrawId": "1903",
-              "lastWinningDrawDate": 1765843200000
+              "numberOfTimesDrawn": 197,
+              "notDrawnSince": 0,
+              "lastWinningDrawId": "1924",
+              "lastWinningDrawDate": 1772150400000
             },
             {
               "result": "15",
               "frequency": 0.1,
               "numberOfTimesDrawn": 198,
-              "notDrawnSince": 7,
+              "notDrawnSince": 24,
               "lastWinningDrawId": "1900",
               "lastWinningDrawDate": 1764892800000
             },
@@ -130,263 +130,263 @@
               "result": "16",
               "frequency": 0.1,
               "numberOfTimesDrawn": 187,
-              "notDrawnSince": 4,
+              "notDrawnSince": 21,
               "lastWinningDrawId": "1903",
               "lastWinningDrawDate": 1765843200000
             },
             {
               "result": "17",
               "frequency": 0.11,
-              "numberOfTimesDrawn": 205,
-              "notDrawnSince": 3,
-              "lastWinningDrawId": "1904",
-              "lastWinningDrawDate": 1766102400000
+              "numberOfTimesDrawn": 208,
+              "notDrawnSince": 5,
+              "lastWinningDrawId": "1919",
+              "lastWinningDrawDate": 1770681600000
             },
             {
               "result": "18",
               "frequency": 0.09,
-              "numberOfTimesDrawn": 168,
-              "notDrawnSince": 22,
-              "lastWinningDrawId": "1885",
-              "lastWinningDrawDate": 1760400000000
+              "numberOfTimesDrawn": 172,
+              "notDrawnSince": 8,
+              "lastWinningDrawId": "1916",
+              "lastWinningDrawDate": 1769731200000
             },
             {
               "result": "19",
               "frequency": 0.11,
-              "numberOfTimesDrawn": 212,
-              "notDrawnSince": 11,
-              "lastWinningDrawId": "1896",
-              "lastWinningDrawDate": 1763683200000
+              "numberOfTimesDrawn": 214,
+              "notDrawnSince": 5,
+              "lastWinningDrawId": "1919",
+              "lastWinningDrawDate": 1770681600000
             },
             {
               "result": "20",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 200,
-              "notDrawnSince": 8,
-              "lastWinningDrawId": "1899",
-              "lastWinningDrawDate": 1764633600000
+              "numberOfTimesDrawn": 201,
+              "notDrawnSince": 6,
+              "lastWinningDrawId": "1918",
+              "lastWinningDrawDate": 1770336000000
             },
             {
               "result": "21",
               "frequency": 0.11,
-              "numberOfTimesDrawn": 211,
-              "notDrawnSince": 3,
-              "lastWinningDrawId": "1904",
-              "lastWinningDrawDate": 1766102400000
+              "numberOfTimesDrawn": 212,
+              "notDrawnSince": 10,
+              "lastWinningDrawId": "1914",
+              "lastWinningDrawDate": 1769126400000
             },
             {
               "result": "22",
               "frequency": 0.08,
-              "numberOfTimesDrawn": 150,
-              "notDrawnSince": 1,
-              "lastWinningDrawId": "1906",
-              "lastWinningDrawDate": 1766707200000
+              "numberOfTimesDrawn": 151,
+              "notDrawnSince": 11,
+              "lastWinningDrawId": "1913",
+              "lastWinningDrawDate": 1768867200000
             },
             {
               "result": "23",
               "frequency": 0.11,
-              "numberOfTimesDrawn": 215,
-              "notDrawnSince": 31,
-              "lastWinningDrawId": "1876",
-              "lastWinningDrawDate": 1757635200000
+              "numberOfTimesDrawn": 217,
+              "notDrawnSince": 6,
+              "lastWinningDrawId": "1918",
+              "lastWinningDrawDate": 1770336000000
             },
             {
               "result": "24",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 194,
-              "notDrawnSince": 18,
-              "lastWinningDrawId": "1889",
-              "lastWinningDrawDate": 1761609600000
+              "numberOfTimesDrawn": 198,
+              "notDrawnSince": 0,
+              "lastWinningDrawId": "1924",
+              "lastWinningDrawDate": 1772150400000
             },
             {
               "result": "25",
-              "frequency": 0.11,
+              "frequency": 0.1,
               "numberOfTimesDrawn": 202,
-              "notDrawnSince": 5,
+              "notDrawnSince": 22,
               "lastWinningDrawId": "1902",
               "lastWinningDrawDate": 1765497600000
             },
             {
               "result": "26",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 197,
-              "notDrawnSince": 0,
-              "lastWinningDrawId": "1907",
-              "lastWinningDrawDate": 1767052800000
+              "numberOfTimesDrawn": 199,
+              "notDrawnSince": 7,
+              "lastWinningDrawId": "1917",
+              "lastWinningDrawDate": 1770076800000
             },
             {
               "result": "27",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 198,
-              "notDrawnSince": 2,
-              "lastWinningDrawId": "1905",
-              "lastWinningDrawDate": 1766448000000
+              "numberOfTimesDrawn": 202,
+              "notDrawnSince": 0,
+              "lastWinningDrawId": "1924",
+              "lastWinningDrawDate": 1772150400000
             },
             {
               "result": "28",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 182,
-              "notDrawnSince": 16,
-              "lastWinningDrawId": "1891",
-              "lastWinningDrawDate": 1762214400000
+              "numberOfTimesDrawn": 184,
+              "notDrawnSince": 2,
+              "lastWinningDrawId": "1922",
+              "lastWinningDrawDate": 1771545600000
             },
             {
               "result": "29",
               "frequency": 0.11,
-              "numberOfTimesDrawn": 212,
-              "notDrawnSince": 0,
-              "lastWinningDrawId": "1907",
-              "lastWinningDrawDate": 1767052800000
+              "numberOfTimesDrawn": 213,
+              "notDrawnSince": 12,
+              "lastWinningDrawId": "1912",
+              "lastWinningDrawDate": 1768521600000
             },
             {
               "result": "30",
               "frequency": 0.1,
               "numberOfTimesDrawn": 193,
-              "notDrawnSince": 5,
+              "notDrawnSince": 22,
               "lastWinningDrawId": "1902",
               "lastWinningDrawDate": 1765497600000
             },
             {
               "result": "31",
               "frequency": 0.09,
-              "numberOfTimesDrawn": 179,
-              "notDrawnSince": 19,
-              "lastWinningDrawId": "1888",
-              "lastWinningDrawDate": 1761264000000
+              "numberOfTimesDrawn": 182,
+              "notDrawnSince": 4,
+              "lastWinningDrawId": "1920",
+              "lastWinningDrawDate": 1770940800000
             },
             {
               "result": "32",
               "frequency": 0.09,
               "numberOfTimesDrawn": 178,
-              "notDrawnSince": 1,
+              "notDrawnSince": 18,
               "lastWinningDrawId": "1906",
               "lastWinningDrawDate": 1766707200000
             },
             {
               "result": "33",
               "frequency": 0.09,
-              "numberOfTimesDrawn": 167,
-              "notDrawnSince": 9,
-              "lastWinningDrawId": "1898",
-              "lastWinningDrawDate": 1764288000000
+              "numberOfTimesDrawn": 168,
+              "notDrawnSince": 2,
+              "lastWinningDrawId": "1922",
+              "lastWinningDrawDate": 1771545600000
             },
             {
               "result": "34",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 190,
-              "notDrawnSince": 0,
-              "lastWinningDrawId": "1907",
-              "lastWinningDrawDate": 1767052800000
+              "numberOfTimesDrawn": 193,
+              "notDrawnSince": 5,
+              "lastWinningDrawId": "1919",
+              "lastWinningDrawDate": 1770681600000
             },
             {
               "result": "35",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 200,
-              "notDrawnSince": 10,
-              "lastWinningDrawId": "1897",
-              "lastWinningDrawDate": 1764028800000
+              "numberOfTimesDrawn": 202,
+              "notDrawnSince": 2,
+              "lastWinningDrawId": "1922",
+              "lastWinningDrawDate": 1771545600000
             },
             {
               "result": "36",
               "frequency": 0.09,
               "numberOfTimesDrawn": 181,
-              "notDrawnSince": 1,
+              "notDrawnSince": 18,
               "lastWinningDrawId": "1906",
               "lastWinningDrawDate": 1766707200000
             },
             {
               "result": "37",
               "frequency": 0.11,
-              "numberOfTimesDrawn": 201,
-              "notDrawnSince": 5,
-              "lastWinningDrawId": "1902",
-              "lastWinningDrawDate": 1765497600000
+              "numberOfTimesDrawn": 203,
+              "notDrawnSince": 4,
+              "lastWinningDrawId": "1920",
+              "lastWinningDrawDate": 1770940800000
             },
             {
               "result": "38",
               "frequency": 0.1,
               "numberOfTimesDrawn": 195,
-              "notDrawnSince": 17,
+              "notDrawnSince": 34,
               "lastWinningDrawId": "1890",
               "lastWinningDrawDate": 1761868800000
             },
             {
               "result": "39",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 190,
-              "notDrawnSince": 3,
-              "lastWinningDrawId": "1904",
-              "lastWinningDrawDate": 1766102400000
+              "numberOfTimesDrawn": 191,
+              "notDrawnSince": 0,
+              "lastWinningDrawId": "1924",
+              "lastWinningDrawDate": 1772150400000
             },
             {
               "result": "40",
               "frequency": 0.09,
-              "numberOfTimesDrawn": 174,
-              "notDrawnSince": 4,
-              "lastWinningDrawId": "1903",
-              "lastWinningDrawDate": 1765843200000
+              "numberOfTimesDrawn": 176,
+              "notDrawnSince": 1,
+              "lastWinningDrawId": "1923",
+              "lastWinningDrawDate": 1771891200000
             },
             {
               "result": "41",
               "frequency": 0.09,
-              "numberOfTimesDrawn": 173,
-              "notDrawnSince": 4,
-              "lastWinningDrawId": "1903",
-              "lastWinningDrawDate": 1765843200000
+              "numberOfTimesDrawn": 174,
+              "notDrawnSince": 3,
+              "lastWinningDrawId": "1921",
+              "lastWinningDrawDate": 1771286400000
             },
             {
               "result": "42",
               "frequency": 0.11,
-              "numberOfTimesDrawn": 214,
-              "notDrawnSince": 9,
-              "lastWinningDrawId": "1898",
-              "lastWinningDrawDate": 1764288000000
+              "numberOfTimesDrawn": 219,
+              "notDrawnSince": 0,
+              "lastWinningDrawId": "1924",
+              "lastWinningDrawDate": 1772150400000
             },
             {
               "result": "43",
               "frequency": 0.09,
-              "numberOfTimesDrawn": 176,
-              "notDrawnSince": 3,
-              "lastWinningDrawId": "1904",
-              "lastWinningDrawDate": 1766102400000
+              "numberOfTimesDrawn": 178,
+              "notDrawnSince": 1,
+              "lastWinningDrawId": "1923",
+              "lastWinningDrawDate": 1771891200000
             },
             {
               "result": "44",
               "frequency": 0.11,
-              "numberOfTimesDrawn": 217,
-              "notDrawnSince": 0,
-              "lastWinningDrawId": "1907",
-              "lastWinningDrawDate": 1767052800000
+              "numberOfTimesDrawn": 219,
+              "notDrawnSince": 13,
+              "lastWinningDrawId": "1911",
+              "lastWinningDrawDate": 1768262400000
             },
             {
               "result": "45",
-              "frequency": 0.11,
+              "frequency": 0.1,
               "numberOfTimesDrawn": 201,
-              "notDrawnSince": 13,
+              "notDrawnSince": 30,
               "lastWinningDrawId": "1894",
               "lastWinningDrawDate": 1763078400000
             },
             {
               "result": "46",
               "frequency": 0.09,
-              "numberOfTimesDrawn": 166,
-              "notDrawnSince": 7,
-              "lastWinningDrawId": "1900",
-              "lastWinningDrawDate": 1764892800000
+              "numberOfTimesDrawn": 168,
+              "notDrawnSince": 8,
+              "lastWinningDrawId": "1916",
+              "lastWinningDrawDate": 1769731200000
             },
             {
               "result": "47",
               "frequency": 0.09,
-              "numberOfTimesDrawn": 175,
-              "notDrawnSince": 14,
-              "lastWinningDrawId": "1893",
-              "lastWinningDrawDate": 1762819200000
+              "numberOfTimesDrawn": 178,
+              "notDrawnSince": 1,
+              "lastWinningDrawId": "1923",
+              "lastWinningDrawDate": 1771891200000
             },
             {
               "result": "48",
               "frequency": 0.1,
               "numberOfTimesDrawn": 189,
-              "notDrawnSince": 1,
+              "notDrawnSince": 18,
               "lastWinningDrawId": "1906",
               "lastWinningDrawDate": 1766707200000
             },
@@ -394,17 +394,17 @@
               "result": "49",
               "frequency": 0.1,
               "numberOfTimesDrawn": 193,
-              "notDrawnSince": 6,
+              "notDrawnSince": 23,
               "lastWinningDrawId": "1901",
               "lastWinningDrawDate": 1765238400000
             },
             {
               "result": "50",
               "frequency": 0.11,
-              "numberOfTimesDrawn": 205,
-              "notDrawnSince": 50,
-              "lastWinningDrawId": "1857",
-              "lastWinningDrawDate": 1751932800000
+              "numberOfTimesDrawn": 207,
+              "notDrawnSince": 11,
+              "lastWinningDrawId": "1913",
+              "lastWinningDrawDate": 1768867200000
             }
           ],
           "mostDrawnResults": [
@@ -421,7 +421,7 @@
             "43",
             "41"
           ],
-          "drawCount": 1907,
+          "drawCount": 1924,
           "selectionType": "main"
         },
         {
@@ -430,110 +430,348 @@
           "statistics": [
             {
               "result": "1",
-              "frequency": 0.09,
-              "numberOfTimesDrawn": 181,
-              "notDrawnSince": 30,
-              "lastWinningDrawId": "1099",
-              "lastWinningDrawDate": 1757980800000
+              "frequency": 0.1,
+              "numberOfTimesDrawn": 184,
+              "notDrawnSince": 3,
+              "lastWinningDrawId": "1136",
+              "lastWinningDrawDate": 1771286400000
             },
             {
               "result": "2",
               "frequency": 0.09,
               "numberOfTimesDrawn": 178,
-              "notDrawnSince": 6,
-              "lastWinningDrawId": "1123",
+              "notDrawnSince": 23,
+              "lastWinningDrawId": "1116",
               "lastWinningDrawDate": 1765238400000
             },
             {
               "result": "3",
               "frequency": 0.1,
               "numberOfTimesDrawn": 187,
-              "notDrawnSince": 26,
-              "lastWinningDrawId": "1103",
+              "notDrawnSince": 43,
+              "lastWinningDrawId": "1096",
               "lastWinningDrawDate": 1759190400000
             },
             {
               "result": "4",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 192,
-              "notDrawnSince": 8,
-              "lastWinningDrawId": "1121",
-              "lastWinningDrawDate": 1764633600000
+              "numberOfTimesDrawn": 195,
+              "notDrawnSince": 3,
+              "lastWinningDrawId": "1136",
+              "lastWinningDrawDate": 1771286400000
             },
             {
               "result": "5",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 192,
-              "notDrawnSince": 9,
-              "lastWinningDrawId": "1120",
-              "lastWinningDrawDate": 1764288000000
+              "numberOfTimesDrawn": 195,
+              "notDrawnSince": 10,
+              "lastWinningDrawId": "1129",
+              "lastWinningDrawDate": 1769126400000
             },
             {
               "result": "6",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 185,
-              "notDrawnSince": 10,
-              "lastWinningDrawId": "1119",
-              "lastWinningDrawDate": 1764028800000
+              "numberOfTimesDrawn": 187,
+              "notDrawnSince": 3,
+              "lastWinningDrawId": "1136",
+              "lastWinningDrawDate": 1771286400000
             },
             {
               "result": "7",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 196,
-              "notDrawnSince": 5,
-              "lastWinningDrawId": "1124",
-              "lastWinningDrawDate": 1765497600000
+              "numberOfTimesDrawn": 197,
+              "notDrawnSince": 14,
+              "lastWinningDrawId": "1125",
+              "lastWinningDrawDate": 1767916800000
             },
             {
               "result": "8",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 182,
-              "notDrawnSince": 2,
-              "lastWinningDrawId": "1127",
-              "lastWinningDrawDate": 1766448000000
+              "numberOfTimesDrawn": 183,
+              "notDrawnSince": 16,
+              "lastWinningDrawId": "1123",
+              "lastWinningDrawDate": 1767312000000
             },
             {
               "result": "9",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 182,
-              "notDrawnSince": 7,
-              "lastWinningDrawId": "1122",
-              "lastWinningDrawDate": 1764892800000
+              "numberOfTimesDrawn": 183,
+              "notDrawnSince": 4,
+              "lastWinningDrawId": "1135",
+              "lastWinningDrawDate": 1770940800000
             },
             {
               "result": "10",
               "frequency": 0.11,
-              "numberOfTimesDrawn": 203,
-              "notDrawnSince": 29,
-              "lastWinningDrawId": "1100",
-              "lastWinningDrawDate": 1758240000000
+              "numberOfTimesDrawn": 208,
+              "notDrawnSince": 1,
+              "lastWinningDrawId": "1138",
+              "lastWinningDrawDate": 1771891200000
             },
             {
               "result": "11",
               "frequency": 0.1,
-              "numberOfTimesDrawn": 189,
-              "notDrawnSince": 0,
-              "lastWinningDrawId": "1129",
-              "lastWinningDrawDate": 1767052800000
+              "numberOfTimesDrawn": 190,
+              "notDrawnSince": 11,
+              "lastWinningDrawId": "1128",
+              "lastWinningDrawDate": 1768867200000
             },
             {
               "result": "12",
               "frequency": 0.1,
               "numberOfTimesDrawn": 191,
-              "notDrawnSince": 1,
-              "lastWinningDrawId": "1128",
+              "notDrawnSince": 18,
+              "lastWinningDrawId": "1121",
               "lastWinningDrawDate": 1766707200000
             }
           ],
           "mostDrawnResults": [],
           "leastDrawnResults": [],
-          "drawCount": 1907,
+          "drawCount": 1924,
           "selectionType": "star"
         }
       ]
     }
   ],
   "drawHistory": [
+    [
+      "2026-02-27",
+      [
+        27,
+        24,
+        39,
+        42,
+        14
+      ],
+      [
+        10,
+        6
+      ]
+    ],
+    [
+      "2026-02-24",
+      [
+        10,
+        43,
+        47,
+        40,
+        27
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    [
+      "2026-02-20",
+      [
+        24,
+        33,
+        28,
+        35,
+        13
+      ],
+      [
+        5,
+        9
+      ]
+    ],
+    [
+      "2026-02-17",
+      [
+        6,
+        41,
+        1,
+        10,
+        4
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    [
+      "2026-02-13",
+      [
+        37,
+        40,
+        13,
+        31,
+        9
+      ],
+      [
+        9,
+        6
+      ]
+    ],
+    [
+      "2026-02-10",
+      [
+        1,
+        19,
+        42,
+        17,
+        34
+      ],
+      [
+        1,
+        8
+      ]
+    ],
+    [
+      "2026-02-06",
+      [
+        20,
+        10,
+        24,
+        13,
+        23
+      ],
+      [
+        10,
+        6
+      ]
+    ],
+    [
+      "2026-02-03",
+      [
+        27,
+        28,
+        37,
+        34,
+        26
+      ],
+      [
+        4,
+        9
+      ]
+    ],
+    [
+      "2026-01-30",
+      [
+        14,
+        18,
+        31,
+        35,
+        46
+      ],
+      [
+        7,
+        11
+      ]
+    ],
+    [
+      "2026-01-27",
+      [
+        47,
+        42,
+        23,
+        43,
+        4
+      ],
+      [
+        4,
+        9
+      ]
+    ],
+    [
+      "2026-01-23",
+      [
+        4,
+        42,
+        5,
+        13,
+        21
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    [
+      "2026-01-20",
+      [
+        22,
+        18,
+        19,
+        50,
+        11
+      ],
+      [
+        11,
+        1
+      ]
+    ],
+    [
+      "2026-01-16",
+      [
+        5,
+        24,
+        17,
+        50,
+        29
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    [
+      "2026-01-13",
+      [
+        47,
+        6,
+        44,
+        10,
+        18
+      ],
+      [
+        6,
+        10
+      ]
+    ],
+    [
+      "2026-01-09",
+      [
+        10,
+        34,
+        26,
+        7,
+        1
+      ],
+      [
+        10,
+        7
+      ]
+    ],
+    [
+      "2026-01-06",
+      [
+        5,
+        17,
+        18,
+        14,
+        31
+      ],
+      [
+        5,
+        12
+      ]
+    ],
+    [
+      "2026-01-02",
+      [
+        46,
+        42,
+        27,
+        44,
+        8
+      ],
+      [
+        8,
+        10
+      ]
+    ],
     [
       "2025-12-30",
       [
@@ -575,245 +813,7 @@
         8,
         11
       ]
-    ],
-    [
-      "2025-12-19",
-      [
-        39,
-        43,
-        44,
-        21,
-        17
-      ],
-      [
-        1,
-        11
-      ]
-    ],
-    [
-      "2025-12-16",
-      [
-        41,
-        14,
-        16,
-        44,
-        40
-      ],
-      [
-        2,
-        10
-      ]
-    ],
-    [
-      "2025-12-12",
-      [
-        30,
-        7,
-        25,
-        41,
-        37
-      ],
-      [
-        7,
-        11
-      ]
-    ],
-    [
-      "2025-12-09",
-      [
-        13,
-        49,
-        2,
-        29,
-        8
-      ],
-      [
-        2,
-        8
-      ]
-    ],
-    [
-      "2025-12-05",
-      [
-        34,
-        25,
-        15,
-        46,
-        9
-      ],
-      [
-        9,
-        8
-      ]
-    ],
-    [
-      "2025-12-02",
-      [
-        14,
-        4,
-        41,
-        13,
-        20
-      ],
-      [
-        4,
-        6
-      ]
-    ],
-    [
-      "2025-11-28",
-      [
-        5,
-        33,
-        42,
-        29,
-        39
-      ],
-      [
-        5,
-        3
-      ]
-    ],
-    [
-      "2025-11-25",
-      [
-        11,
-        35,
-        44,
-        17,
-        6
-      ],
-      [
-        11,
-        6
-      ]
-    ],
-    [
-      "2025-11-21",
-      [
-        35,
-        17,
-        48,
-        29,
-        19
-      ],
-      [
-        9,
-        5
-      ]
-    ],
-    [
-      "2025-11-18",
-      [
-        48,
-        4,
-        2,
-        21,
-        15
-      ],
-      [
-        4,
-        2
-      ]
-    ],
-    [
-      "2025-11-14",
-      [
-        9,
-        45,
-        26,
-        48,
-        27
-      ],
-      [
-        9,
-        9
-      ]
-    ],
-    [
-      "2025-11-11",
-      [
-        47,
-        22,
-        32,
-        36,
-        4
-      ],
-      [
-        4,
-        2
-      ]
-    ],
-    [
-      "2025-11-07",
-      [
-        40,
-        21,
-        43,
-        11,
-        39
-      ],
-      [
-        11,
-        8
-      ]
-    ],
-    [
-      "2025-11-04",
-      [
-        25,
-        28,
-        45,
-        9,
-        6
-      ],
-      [
-        9,
-        6
-      ]
-    ],
-    [
-      "2025-10-31",
-      [
-        43,
-        38,
-        5,
-        45,
-        14
-      ],
-      [
-        5,
-        7
-      ]
-    ],
-    [
-      "2025-10-28",
-      [
-        35,
-        49,
-        24,
-        7,
-        8
-      ],
-      [
-        7,
-        8
-      ]
-    ],
-    [
-      "2025-10-24",
-      [
-        25,
-        8,
-        45,
-        7,
-        31
-      ],
-      [
-        8,
-        7
-      ]
     ]
   ],
-  "lastUpdated": "2026-05-19T09:57:16.499Z"
+  "lastUpdated": "2026-05-20T09:46:39.277Z"
 }
